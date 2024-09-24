@@ -1,0 +1,31 @@
+body{
+
+    background-image: url(../OIP.jpg);
+    background-size: cover;
+
+}
+.centrartexto{
+    text-align: center;
+}
+.gridcontenedor {
+    display: grid;
+    /* grid-template-columns: 9% 9% 9%; */
+    justify-content: center;
+    gap: 0px;
+}
+.texto {
+    background-color: rgb(141, 81, 197);
+   
+    padding: 10px;
+    justify-content: center;
+    grid-row: 1/2;
+    grid-column: 0;
+}
+.div {
+    grid-column: 2/4;
+}
+.tresimagen {
+    grid-column: 4/5;
+}
+
+
